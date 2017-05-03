@@ -1,0 +1,26 @@
+{
+  "name": "esi-tester-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-install": "node ./node_modules/esi-tester/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/esi-tester-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/esi-tester-server/issues"
+  },
+  "homepage": "https://github.com/stierma1/esi-tester-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "esi-tester": "git://github.com/stierma1/esi-tester.git",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
+}
